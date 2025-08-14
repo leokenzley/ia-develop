@@ -1,15 +1,20 @@
 Tenho a seguinte estrutura de projeto java 21 e springboot 3.4.x e o banco de dados postgres:
-|_src
-    |_main
-        |_java
-           |_api
-               |_controller
-           |_mapper
-           |_repository
-           |_model
-              |_entity
-           |_service
-               |_impl
+src
+    main
+        java
+            <NOME DO PACOTE>
+                api
+                    controller
+                enums
+                exception
+                mapper
+                repository
+                model
+                    entity
+                    request
+                    response
+                service
+                    impl
 
 Crie uma tabela tb_tipo_documento a partir do seguinte json:
 {
